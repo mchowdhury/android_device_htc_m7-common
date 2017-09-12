@@ -72,8 +72,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/projector-Keypad.kl:system/usr/keylayout/projector-Keypad.kl \
     $(LOCAL_PATH)/keylayout/synaptics-rmi-touchscreen.kl:system/usr/keylayout/synaptics-rmi-touchscreen.kl \
 
-# Keystore
+# Keystore-Keymaster
 PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0-impl \
     keystore.msm8960
 
 # Log
