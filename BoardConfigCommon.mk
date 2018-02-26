@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2018 The LineageOS Project
 # Copyright (C) 2013 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -50,8 +51,8 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 # Charger
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/htc_lpm/lpm_mode
 
-# CMHW
-BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw
+# Lineage HW
+BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/lineagehw
 
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
