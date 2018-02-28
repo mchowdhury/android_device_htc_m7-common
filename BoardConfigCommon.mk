@@ -51,6 +51,9 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 # Charger
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/htc_lpm/lpm_mode
 
+# Dependencies
+ALLOW_MISSING_DEPENDENCIES=true
+
 # Lineage HW
 BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/lineagehw
 
@@ -92,6 +95,9 @@ BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
 #-include device/qcom/sepolicy/sepolicy.mk
 
 # BOARD_SEPOLICY_DIRS += device/htc/m7-common/sepolicy
+
+# USB
+TARGET_USES_LEGACY_ADB_INTERFACE := true
 
 # Wifi
 BOARD_HOSTAPD_DRIVER             := NL80211
