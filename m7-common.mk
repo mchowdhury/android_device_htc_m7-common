@@ -54,6 +54,7 @@ WITH_LINEAGE_CHARGER := false
 
 # GPS
 PRODUCT_PACKAGES += \
+    libgps.utils \
     gps.msm8960
 
 PRODUCT_COPY_FILES += \
